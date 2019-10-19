@@ -1,8 +1,6 @@
 <template>
-  <div :style="{ height: height + 'px' }">
-    <div :class="cls" :style="style">
-      <slot></slot>
-    </div>
+  <div :class="cls" :style="style">
+    <slot></slot>
   </div>
 </template>
 
